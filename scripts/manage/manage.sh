@@ -8,7 +8,5 @@ if [ "$1" = "lib" ]; then
 
 # if the command is manage.sh init
 elif [ "$1" = "init" ]; then
-    # create src directory
-    mkdir -p $DIR/../src
-    echo "src directory created"
+    exec bash $DIR/init.sh
 fi
