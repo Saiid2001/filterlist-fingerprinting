@@ -1,0 +1,5 @@
+name: scraping
+channels:
+  - defaults
+dependencies:
+  - pandas
